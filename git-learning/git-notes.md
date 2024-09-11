@@ -1,0 +1,21 @@
+
+- *Version Control*: Git helps you keep track of changes in your code by creating versions, known as commits, so you don't need to create multiple files like Code1, Code2, etc.
+- *Commit Process*: Instead of creating new files for each version, you commit changes to Git, which stores the history of your code, allowing you to revert to previous versions easily.
+- *Local and Remote Repositories*: Git can store your version history locally on your computer and also with a Git provider in the cloud, ensuring your code is safe even if something happens to your local machine.
+- Code Sharing: Git allows you to share code with others easily, avoiding issues like spam filters in emails or outdated methods like USB sticks.
+- *Git Provider*: By using a Git provider, you can add your code to a repository and share it with coworkers or friends, who can then access and download it.
+- *Version Control*: Others can install Git and use version control while working in the shared repository, ensuring smooth collaboration and code management.
+- *Collaboration*: Git allows multiple people to work on the same file by creating copies of the file for each person. Changes can be pushed back to the Git provider and pulled by others to keep everyone updated.
+- *Merge Conflicts*: Git has the capability to intelligently merge changes from different versions of a file, though manual intervention may be needed if changes occur at the same level.
+- *Version Control*: By using Git, you can see the newest versions of files and understand what changes others have made, facilitating effective teamwork.
+- Open Source Definition: Open source means that the code behind the software is publicly available, allowing anyone to download, modify, and use it.
+- Community Contribution: The open-source community can contribute by reporting bugs, suggesting features, or directly making changes to the code if they have the skills.
+- Branching for Safety: To manage multiple contributors and avoid breaking the main code, Git uses branches. Changes are made in branches and merged into the main code after review, ensuring stability and security.
+- *Local Workflow*: Git operates on a local level with a local folder, staging area, and local repository to manage your files.
+- *Staging Area*: You add files to the staging area using `git add` to decide which changes to snapshot.
+- *Commit Process*: Once changes are staged, you commit them to the local repository using `git commit`, creating a snapshot of the current state of your files.
+- *Pushing Code*: You can push your committed files from your local repository to a remote repository using the `git push` command, making them accessible from other devices or to other people.
+- *Pulling Code*: To get the latest files from a remote repository to your local device, use the `git pull` command, ensuring you always have the most up-to-date version.
+- *Centralised vs. Distributed*: Unlike centralised version control systems where the history is stored only on the server, distributed version control systems like Git store the complete history on every client.
+- *Data Safety*: With distributed version control, even if the server fails, every client has a full copy of the history, ensuring data safety.
+- *Synchronisation*: The Git provider acts as a central point for synchronisation, but every client has the same files and versions stored locally.
